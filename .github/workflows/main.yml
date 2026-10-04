@@ -1,0 +1,118 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-flash-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "enableWordTimestamps": false,
+    "enableSpeakerDiarization": false,
+    "enablePolishedTranscript": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "A disaster so devastating… that it pushed an entire city into the shadow of death.\n\nRubble, screams, and destruction were everywhere… yet some people were still fighting to survive.\n\nAmid the chaos, a police officer sets out to save those trapped in the disaster. Every step is dangerous… and every second could mean the difference between life and death.\n\nBut the real fear begins when they realize… this is not just an accident.\n\nNow, there is only one question—will they survive this destruction?\n\nOr will hope itself… disappear in the flames?\n",
+      "role": "user",
+      "tokenCount": 117,
+      "createTime": "2026-09-18T08:24:04.558Z"
+    }, {
+      "text": "**Unveiling The Catastrophe**\n\nI\u0027m focusing now on the horrific scene. I\u0027m visualizing the disaster\u0027s immediate impact: devastation, debris, and the desperate sounds. I\u0027m also considering a heroic police officer trying to save others, adding urgency and peril. It\u0027s not just a disaster, that\u0027s what I\u0027m thinking, there\u0027s more. Something more sinister.\n\n\n\n**Developing The Narrative**\n\nI\u0027ve decided to craft a short story, expanding on the initial scene to include a \"mystery\" element. I\u0027m building Scene 1 with sensory details: smoke, ash, and the chilling silence. I\u0027ve named the protagonist Officer Elias Thorne, and the disaster will initially appear accidental, maybe a gas leak or quake. My big twist is to reveal evidence of deliberate malice. I\u0027m planning a race-against-time climax, and the working title is \"The Ember Protocol\". The setting will be Oakhaven, a formerly vibrant metropolis now reduced to ruins.\n\n\n",
+      "role": "model",
+      "tokenCount": 479,
+      "isThought": true,
+      "parts": [{
+        "text": "**Unveiling The Catastrophe**\n\nI\u0027m focusing now on the horrific scene. I\u0027m visualizing the disaster\u0027s immediate impact: devastation, debris, and the desperate sounds. I\u0027m also considering a heroic police officer trying to save others, adding urgency and peril. It\u0027s not just a disaster, that\u0027s what I\u0027m thinking, there\u0027s more. Something more sinister.\n\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Developing The Narrative**\n\nI\u0027ve decided to craft a short story, expanding on the initial scene to include a \"mystery\" element. I\u0027m building Scene 1 with sensory details: smoke, ash, and the chilling silence. I\u0027ve named the protagonist Officer Elias Thorne, and the disaster will initially appear accidental, maybe a gas leak or quake. My big twist is to reveal evidence of deliberate malice. I\u0027m planning a race-against-time climax, and the working title is \"The Ember Protocol\". The setting will be Oakhaven, a formerly vibrant metropolis now reduced to ruins.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-09-18T08:24:04.559Z"
+    }, {
+      "text": "The sky over Oakhaven didn’t turn black; it turned a bruised, sickly orange. \n\nOfficer Elias Thorne wiped the grit from his eyes, the taste of pulverized concrete thick on his tongue. Just ten minutes ago, the Silverton Tower had been the crown jewel of the skyline. Now, it was a jagged tombstone of twisted rebar and shattered glass.\n\n\"Dispatch, this is Thorne,\" he wheezed into his shoulder mic. Static was his only answer. The city’s heartbeat had flatlined.\n\nElias moved toward the ruins of a collapsed subway entrance. The screams were muffled, coming from beneath layers of asphalt. He began to dig, his gloved hands tearing at the debris. He pulled a young woman from the gap, her face masked in grey dust. \n\n\"Stay with me,\" Elias urged, his voice cracking. \"We’re getting you out.\"\n\n\"It wasn\u0027t... the pipes,\" she whispered, clutching his forearm. Her eyes were wide with a primal terror that went beyond the pain of her injuries. \"The ground didn\u0027t shake. It *breathed*.\"\n\nElias frowned, looking back at the crater where the tower had stood. As a first responder, he’d seen gas explosions and structural failures. But as the smoke cleared, he noticed something that chilled his blood. \n\nThe steel beams weren’t snapped. They were **melted**. The edges were glowing with a pulsating, violet luminescence—a heat so intense it had liquified the foundations in seconds. No gas leak could do that. No earthquake could leave a footprint of radioactive glass.\n\nSuddenly, a low hum vibrated through the soles of his boots. It wasn\u0027t an aftershock. It was rhythmic. Intentional.\n\nHe looked toward the center of the destruction and saw them: figures moving through the thickest part of the fire. They weren\u0027t rescue workers. They were tall, encased in matte-black suits that absorbed the light of the flames, moving with a terrifying, mechanical precision. They weren\u0027t looking for survivors. They were looking for *something else*.\n\nElias realized then that the \"disaster\" was merely the opening of a door.\n\nHe reached for his sidearm, his heart hammering against his ribs like a trapped bird. He had one clip, a fading flashlight, and a city full of dying people. \n\nThe real war hadn\u0027t even begun yet.\n\n***\n\n### **THE EMBER PROTOCOL**\n**Coming soon to theaters.** \n\n*“When the smoke clears, the truth will burn.”*",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 539,
+      "parts": [{
+        "text": "The sky over Oakhaven didn’t turn black; it turned a bruised, sickly orange. "
+      }, {
+        "text": "\n\nOfficer Elias Thorne wiped the grit from his eyes, the taste of pulverized concrete thick on his tongue. Just ten minutes ago, the Silver"
+      }, {
+        "text": "ton Tower had been the crown jewel of the skyline. Now, it was a jagged tombstone of twisted rebar and shattered"
+      }, {
+        "text": " glass.\n\n\"Dispatch, this is Thorne,\" he wheezed into his shoulder mic. Static was his only answer. The"
+      }, {
+        "text": " city’s heartbeat had flatlined.\n\nElias moved toward the ruins of a collapsed subway entrance. The screams were muffled"
+      }, {
+        "text": ", coming from beneath layers of asphalt. He began to dig, his gloved hands tearing at the debris. He pulled a young woman from"
+      }, {
+        "text": " the gap, her face masked in grey dust. \n\n\"Stay with me,\" Elias urged, his voice cracking. \"We"
+      }, {
+        "text": "’re getting you out.\"\n\n\"It wasn\u0027t... the pipes,\" she whispered, clutching his forearm. Her"
+      }, {
+        "text": " eyes were wide with a primal terror that went beyond the pain of her injuries. \"The ground didn\u0027t shake. It"
+      }, {
+        "text": " *breathed*.\"\n\nElias frowned, looking back at the crater where the tower had stood. As a first responder, he’"
+      }, {
+        "text": "d seen gas explosions and structural failures. But as the smoke cleared, he noticed something that chilled his blood. \n\nThe steel"
+      }, {
+        "text": " beams weren’t snapped. They were **melted**. The edges were glowing with a pulsating, violet luminescence—a"
+      }, {
+        "text": " heat so intense it had liquified the foundations in seconds. No gas leak could do that. No earthquake could leave a footprint"
+      }, {
+        "text": " of radioactive glass.\n\nSuddenly, a low hum vibrated through the soles of his boots. It wasn\u0027t an"
+      }, {
+        "text": " aftershock. It was rhythmic. Intentional.\n\nHe looked toward the center of the destruction and saw them: figures moving"
+      }, {
+        "text": " through the thickest part of the fire. They weren\u0027t rescue workers. They were tall, encased in matte-black suits that absorbed"
+      }, {
+        "text": " the light of the flames, moving with a terrifying, mechanical precision. They weren\u0027t looking for survivors. They were looking"
+      }, {
+        "text": " for *something else*.\n\nElias realized then that the \"disaster\" was merely the opening of a door.\n\nHe"
+      }, {
+        "text": " reached for his sidearm, his heart hammering against his ribs like a trapped bird. He had one clip, a fading"
+      }, {
+        "text": " flashlight, and a city full of dying people. \n\nThe real war hadn\u0027t even begun yet.\n\n***\n\n###"
+      }, {
+        "text": " **THE EMBER PROTOCOL**\n**Coming soon to theaters.** \n\n*“When the smoke clears, the truth"
+      }, {
+        "text": " will burn.”*"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-09-18T08:24:08.516Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}
